@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taka :"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"
+        android:id="@+id/txtTaka"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="26sp"
+        android:layout_toEndOf="@+id/txtTaka"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtTakaLive"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:layout_below="@+id/txtTaka"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/parent1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt500taka"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/txt500taka"
+                android:id="@+id/txt500takaInput"
+                android:layout_marginLeft="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt100taka"
+                android:layout_below="@+id/txt500taka"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txt500takaInput"
+                android:layout_toEndOf="@+id/txt100taka"
+                android:id="@+id/txt100takaInput"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt50taka"
+                android:layout_below="@+id/txt100taka"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txt100takaInput"
+                android:layout_toEndOf="@+id/txt50taka"
+                android:id="@+id/txt50takaInput"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt20taka"
+                android:layout_below="@+id/txt50taka"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txt50takaInput"
+                android:layout_toEndOf="@+id/txt20taka"
+                android:id="@+id/txt20takaInput"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt10taka"
+                android:layout_below="@+id/txt20taka"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txt20takaInput"
+                android:layout_toEndOf="@+id/txt20taka"
+                android:id="@+id/txt10takaInput"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt5taka"
+                android:layout_below="@+id/txt10taka"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txt10takaInput"
+                android:layout_toEndOf="@+id/txt10taka"
+                android:id="@+id/txt5takaInput"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt2taka"
+                android:layout_below="@+id/txt5taka"
+                android:layout_marginTop="30dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txt5takaInput"
+                android:layout_toEndOf="@+id/txt5taka"
+                android:id="@+id/txt2takaInput"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 :"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/txt1taka"
+                android:layout_below="@+id/txt2taka"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txt2takaInput"
+                android:layout_toEndOf="@+id/txt2taka"
+                android:id="@+id/txt1takaInput"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="30dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn1"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn2"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn3"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn4"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn5"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn6"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn7"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn8"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:id="@+id/btn9"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="0"
+                        android:id="@+id/btn0"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ClEAR"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btnClear"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
