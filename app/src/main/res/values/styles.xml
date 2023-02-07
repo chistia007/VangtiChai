@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Taka">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">Taka :</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="liveText">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text"> 0</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="fiveHundred">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">500 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="fiveHundred0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+    </style>
+
+    <style name="oneHundred">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">100 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="oneHundred0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="fifty">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">50 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="fifty0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="twenty">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">20 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="twenty0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="ten">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">10 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="ten0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="five">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">5 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="five0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="two">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">2 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="two0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="one">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">1 :</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="one0">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+
+</resources>
