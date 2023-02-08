@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:weightSum="10"
         android:layout_below="@+id/txtTaka"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         >
 
@@ -53,15 +53,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/oneHundred"
+                android:text="100 :"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:id="@+id/txt100taka"
                 android:layout_below="@+id/txt500taka"
+
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/oneHundred0"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:layout_below="@+id/txt500takaInput"
                 android:layout_toEndOf="@+id/txt100taka"
                 android:id="@+id/txt100takaInput"
@@ -70,7 +77,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/fifty"
+                android:text="50 :"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:id="@+id/txt50taka"
                 android:layout_below="@+id/txt100taka"
                 />
@@ -78,7 +88,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/fifty0"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:layout_below="@+id/txt100takaInput"
                 android:layout_toEndOf="@+id/txt50taka"
                 android:id="@+id/txt50takaInput" />
@@ -86,7 +99,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/twenty"
+                android:text="20 :"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:id="@+id/txt20taka"
                 android:layout_below="@+id/txt50taka"
                 />
@@ -94,7 +110,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/twenty0"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:layout_below="@+id/txt50takaInput"
                 android:layout_toEndOf="@+id/txt20taka"
                 android:id="@+id/txt20takaInput" />
@@ -102,7 +121,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/ten"
+                android:text="10 :"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:id="@+id/txt10taka"
                 android:layout_below="@+id/txt20taka"
                 />
@@ -110,7 +132,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/ten0"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:layout_below="@+id/txt20takaInput"
                 android:layout_toEndOf="@+id/txt20taka"
                 android:id="@+id/txt10takaInput"
@@ -119,7 +144,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/five"
+                android:text="5 :"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:id="@+id/txt5taka"
                 android:layout_below="@+id/txt10taka"
                 />
@@ -127,7 +155,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/five0"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:layout_below="@+id/txt10takaInput"
                 android:layout_toEndOf="@+id/txt10taka"
                 android:id="@+id/txt5takaInput" />
@@ -135,7 +166,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/two"
+                android:text="2 :"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:id="@+id/txt2taka"
                 android:layout_below="@+id/txt5taka"
                 />
@@ -146,12 +180,18 @@
                 android:layout_below="@+id/txt5takaInput"
                 android:layout_toEndOf="@+id/txt5taka"
                 android:id="@+id/txt2takaInput"
-                style="@style/two0"/>
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/one"
+                android:text="1 :"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:id="@+id/txt1taka"
                 android:layout_below="@+id/txt2taka"
                 />
@@ -159,7 +199,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/one0"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:layout_below="@+id/txt2takaInput"
                 android:layout_toEndOf="@+id/txt2taka"
                 android:id="@+id/txt1takaInput" />
@@ -307,10 +350,6 @@
                         android:background="@drawable/button_bg"/>
 
                 </LinearLayout>
-
-
-
-
 
 
 
